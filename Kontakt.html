@@ -8,7 +8,14 @@
     <title>Kontakt</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Noto+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,400&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="kontakt.css">
+    <link rel="stylesheet" type="text/css" href="/Ikone/ionicons-2.0.1/css/ionicons.min.css">
 </head>
 
 <body>
@@ -24,9 +31,99 @@
             <li><a href="/Kontakt.html">Kontakt</a></li>
         </ul>
     </header>
+    <div class="prazan"></div>
     <div class="sadrzaj">
-        <p>Ukoliko imate pitanje, prijedlog, </p>
+        <p>Ukoliko imate pitanje, sugestiju, primjedbu ili drugo, budite slobodni obratiti nam se!</p>
     </div>
+    <div class="ukupno">
+        <div class="podaci">
+            <i class="ion-ios-telephone kontakt"></i> 032/111-222 <br/>
+            <i class="ion-social-whatsapp kontakt"></i> 061-123-456 <br/>
+            <i class="ion-ios-email kontakt"></i> <a href="https://www.gmail.com/">codepoint@gmail.com </a><br/>
+            <i class="ion-social-facebook kontakt"></i> <a href="https://www.facebook.com/">CodePoint </a><br/>
+            <i class="ion-social-instagram kontakt"></i> <a href="https://www.instagram.com/">CodePoint </a><br/>
+            <i class="ion-social-linkedin kontakt"></i> <a href="https://www.linkedIn.com/">CodePoint </a>
+        </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2860.382786735495!2d17.90902641490127!3d44.199182024972416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ee240809b11e9%3A0x6ca49810ab69d554!2sTrg%20Alije%20Izetbegovi%C4%87a%2C%20Zenica%2072000!5e0!3m2!1sen!2sba!4v1618787375349!5m2!1sen!2sba"
+            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="lokacija">
+        <p> Tu je i adresa naše poslovne jedinice. Bujrum, očekujemo Vas!<br/></p>
+        <i class="ion-ios-location kontakt"></i>
+        <div>Alije Izetbegovića, Zenica </div><br/>
+    </div>
+    <p class="prijava">Ukoliko želite postati dio našeg tima, prijavite se putem sljedeće forme!</p>
+    <div class="form">
+        <form method="POST" action="#" class="contact-form" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <td>Spol:</td>
+                    <td>
+                        <input type="radio" name="spol" value="Ž" /> Žensko<br/>
+                        <input type="radio" name="spol" value="M" /> Muško<br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ime:</td>
+                    <td> <input type="text" name="ime" id="ime" placeholder="Vaše ime" required></td>
+                </tr>
+                <tr>
+                    <td>Prezime:</td>
+                    <td> <input type="text" name="prezime" id="prezime" placeholder="Vaše prezime" required> </td>
+                </tr>
+                <tr>
+                    <td>Vaša slika:</td>
+                    <td><input type="file" name="Slika" />&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td>
+                        <input type="email" name="email" id="email" placeholder="Vaš email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Opis:</td>
+                    <td>
+                        <textarea name="message" placeholder="&nbsp;Opišite se i predstavite svoje &nbsp;sposobnosti"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Programski jezik:</td>
+                    <td>
+                        <input type="checkbox" name="f" value="frontend" /> Frontend <br/>
+                        <input type="checkbox" name="b" value="backend" /> Backend<br/>
+                        <input type="checkbox" name="fu" value="full" /> Full stack developer
+                    </td>
+                </tr>
+                <tr>
+                    <td>Kako ste saznali za nas?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>
+                        <select name="find-us" id="find-us">
+                            <option value="prijatelji" selected>Prijatelji</option>
+                            <option value="internet">Internet</option>
+                            <option value="marketing">Marketing</option>
+                            <option value="drugo">Drugo</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Obavijesti?</td>
+                    <td>
+                        <input type="checkbox" name="obavijesti" id="obavijesti" checked> Da, želim.
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Pošalji podatke">
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+    </div>
+
+
 </body>
 
 </html>
