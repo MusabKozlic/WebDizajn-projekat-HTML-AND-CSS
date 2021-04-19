@@ -136,3 +136,6 @@ header h1 {
     transform: scale(1.07);
     opacity: 1;
 }
+body{
+    background-color: #E0E0E0;
+}
